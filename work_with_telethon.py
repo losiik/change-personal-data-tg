@@ -6,17 +6,11 @@ from telethon.tl.functions.account import UpdateProfileRequest, UpdateUsernameRe
 from telethon.tl.types import InputPeerEmpty, InputPeerUser
 from telethon.tl.functions.contacts import ImportContactsRequest
 from telethon.tl.custom import Dialog
-# with TelegramClient('seregalosash', 11065707, 'e7549e105834b5b1eadbec94d57692ed') as client:
-#    result = client(functions.channels.UpdatePinnedForumTopicRequest(
-#        channel='escapisme_inc',
-#        pinned=True
-#    ))
-#    print(result.stringify())
 
 
 session = 'telethon_tester_2.session'
-app_id = 11065707
-app_hash = 'e7549e105834b5b1eadbec94d57692ed'
+app_id = 'app_id'
+app_hash = 'app_hash'
 # pin random message
 def pin_random_message():
     messages_ids = []
